@@ -1,0 +1,138 @@
+.header{
+    background: linear-gradient(#2196F3, #FFC107);
+    height: 65vh;
+    width: 89vw;
+    position: relative;
+    margin: 2vw auto;
+    overflow: hidden;
+    padding: 0%;
+    
+}
+
+.img{ 
+    height: 34vh;
+    width: 100%;
+    margin: 0%;
+    position: relative;
+    background-image: url(../assets/design1_image1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 33%;
+    background-size: cover;/*ajustar imagen*/
+}
+
+.titulo{
+    position: relative;
+    margin: 0;
+    bottom: 0vh;
+    height: 8vw;
+    background: linear-gradient(#2196F3, #FFC107);
+    opacity: 0.9;
+}
+
+div > h1{
+    color: black;
+    -webkit-text-stroke: 0.8px #2196F3;
+    position: relative;
+    margin: 0%;
+    bottom: 0.4vh;
+    height: 3.5vh;
+    font-weight: bold;
+    text-align: center;
+    font-size: 6vw;
+}
+
+.navegation{
+    position: relative;
+    margin: 0%;
+    bottom: 0.4vh;
+    height: 3.5vh;
+    background: linear-gradient(#2196F3, #FFC107);
+    color:black;
+    line-height: 160%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2vw;
+    font-size: 2vh;
+}
+
+div > ul > li{
+    
+    position: relative;
+    height: 20vh;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    -webkit-text-stroke: 0.2px red;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+div > ul > li > a{
+    position: relative;
+    display: inline-block;
+    margin: 0 1vw;
+    min-width: 25vw;
+    height: 100%;
+    line-height: 250px;
+    color: #dacc10;
+    -webkit-text-stroke: 1.2px red;
+    font-weight: bold;
+    font-size: 6vw;
+    cursor: pointer;
+}
+
+.logo{
+    position: absolute;
+    margin: 0%;
+    height: 70vh;
+    width: 78%;
+    bottom: 4vh;
+    right: 76vw;
+    background-image: url(../assets/logo_mighty_ducks-01.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20%;/*ajustar imagen*/
+}
+
+.home{
+    background-image: url(../assets/hockey_1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    border: 1px solid #C00; 
+    background-position-x: 39%;
+}
+.about{
+    background-image: url(../assets/hockey_2.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;/*ajustar imagen*/
+    background-position-y: 13%;
+    border: 1px solid #C00; 
+}
+.contact{
+    background-image: url(../assets/hockey_3.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;/*ajustar imagen*/
+    border: 1px solid #C00; 
+}
+
+a:hover {background-color: yellowgreen;} 
+
+
+.info{
+    float: right;
+    position: fixed;
+    padding-bottom: 50px;
+    height: 7em;
+    width: 78%;
+    margin: 0%;
+    font-size: 60%;
+    font-weight: 800;
+    font-weight: bold;
+
+}
+
